@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ptu-damage-calculator/static/css/main.33c8e50a.chunk.css",
+    "main.js": "/ptu-damage-calculator/static/js/main.b7ceeda5.chunk.js",
+    "main.js.map": "/ptu-damage-calculator/static/js/main.b7ceeda5.chunk.js.map",
+    "runtime-main.js": "/ptu-damage-calculator/static/js/runtime-main.3f429187.js",
+    "runtime-main.js.map": "/ptu-damage-calculator/static/js/runtime-main.3f429187.js.map",
+    "static/js/2.95a688b9.chunk.js": "/ptu-damage-calculator/static/js/2.95a688b9.chunk.js",
+    "static/js/2.95a688b9.chunk.js.map": "/ptu-damage-calculator/static/js/2.95a688b9.chunk.js.map",
+    "static/js/3.abd66246.chunk.js": "/ptu-damage-calculator/static/js/3.abd66246.chunk.js",
+    "static/js/3.abd66246.chunk.js.map": "/ptu-damage-calculator/static/js/3.abd66246.chunk.js.map",
+    "index.html": "/ptu-damage-calculator/index.html",
+    "static/css/main.33c8e50a.chunk.css.map": "/ptu-damage-calculator/static/css/main.33c8e50a.chunk.css.map",
+    "static/js/2.95a688b9.chunk.js.LICENSE.txt": "/ptu-damage-calculator/static/js/2.95a688b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f429187.js",
+    "static/js/2.95a688b9.chunk.js",
+    "static/css/main.33c8e50a.chunk.css",
+    "static/js/main.b7ceeda5.chunk.js"
+  ]
+}
