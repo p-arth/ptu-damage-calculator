@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  font-family: Raleway;
+  text-align: center;
+}
+
+.pokeball {
+  width: 50px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.pokeball:hover {
+  animation: none;
+}
+
+.pikachu {
+  height: 40px;
+}
+
+.presentation-text {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.form-app {
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+}
+
+.form-app_label {
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  color: #b75656;
+  margin: 25px auto 10px;
+  font-size: 20px;
+  max-width: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-app_label-click {
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  color: #b75656;
+  margin: 25px auto 10px;
+  font-size: 20px;
+  cursor: pointer;
+  max-width: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.effective-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 400px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .effective-box {
+    margin: 0 250px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .effective-box {
+    margin: 0 200px 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .effective-box {
+    margin: 0 50px 0;
+  }
+}
+
+.form-app_label-final {
+  font-weight: bolder;
+  text-align: center;
+  display: block;
+  color: #b75656;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.form-app_set-final_value {
+  display: block;
+  color: #61a055;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.form-app_submit {
+  text-align: center;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.form-app_text-input {
+  margin-top: 5px;
+  max-width: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+.form-app_set-damage {
+  display: flex;
+  justify-content: center;
+}
+
+.form-app_set-damage_title {
+  display: block;
+}
+
+.form-app_set-damage_value {
+  display: block;
+  color: #61a055;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.form-app_set-roll {
+  display: block;
+  color: #55659e;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.modifiers {
+  margin-top: 15px;
+  margin-bottom: 90px;
+}
+
+.modifiers-line {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
